@@ -1,5 +1,5 @@
 
-target := count
+target := fizzbuzz
 all: tmp/${target}.bin
 	./tmp/${target}.bin
 
