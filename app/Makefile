@@ -1,5 +1,5 @@
 
-target := hello
+target := count
 all: tmp/${target}.bin
 	./tmp/${target}.bin
 
