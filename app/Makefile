@@ -1,5 +1,5 @@
 
-target := exit
+target := hello
 all: tmp/${target}.bin
 	./tmp/${target}.bin
 
