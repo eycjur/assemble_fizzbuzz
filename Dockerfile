@@ -1,7 +1,7 @@
-FROM ubuntu:20.04
+FROM amd64/ubuntu:18.04
 WORKDIR /app
 
-RUN apt update && apt install -y sudo make git vim
+RUN apt update && apt install -y sudo make git vim build-essential
 
 ARG ROOT_PASSWORD=pass
 RUN echo "root:${ROOT_PASSWORD}" | chpasswd
