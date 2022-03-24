@@ -1,5 +1,6 @@
-#include <stdlib.h>
+#include <stdio.h>
 
 int main() {
-    exit(0);
+    int i = 12;
+    printf("%d", i);
 }

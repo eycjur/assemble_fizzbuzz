@@ -39,8 +39,8 @@ loop:
     jmp print_new_line
 
 next:
-    inc rcx  # i--
-    cmp rcx, 16
+    inc rcx  # i++
+    cmp rcx, 31
     je exit  # 0かどうかを比較->0なら抜ける
     jmp loop  # 比較結果がfalseならloopに戻る
 
